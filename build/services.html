@@ -1,0 +1,903 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Услуги | Natural Hair Clinic</title>
+    <link rel="stylesheet" href="./css/style.min.css">
+</head>
+
+<body class="main__body">
+    <!-- Header -->
+    <header class="header">
+    <!-- Navbar -->
+    <div class="logo">
+    <a href="index.html"><img src="./img/main-logo.svg" alt="Natural Hair Clinic"></a>
+</div>
+    <button class="header__btn">
+        <img src="img/header-btn.svg">
+        <span>Заказать звонок</span>
+    </button>
+    <div class="header__lang">
+        <button>
+            RU
+            <svg width="10" height="8" viewBox="0 0 10 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M6.29904 6.75C5.72169 7.75 4.27831 7.75 3.70096 6.75L1.10289 2.25C0.525536 1.25 1.24722 0 2.40192 0H7.59808C8.75278 0 9.47446 1.25 8.89711 2.25L6.29904 6.75Z"
+                    fill="#4BB4FF" />
+            </svg>
+
+        </button>
+    </div>
+    <nav class="nav">
+    <a class="nav__link" href="./services.html">Услуги</a>
+    <a class="nav__link nav__anchor" href="index.html#gallery">Галерея</a>
+    <a class="nav__link" href="./license.html">Лицензия</a>
+    <a class="nav__link nav__anchor" href="index.html#contact">Контакты</a>
+    <a class="nav__link" href="./about.html">О клинике</a>
+</nav>
+    <button class="burger-nav">
+    <img src="img/burger-nav.svg" alt="Menu">
+</button>
+
+<div class="burger">
+    <div class="burger__close"></div>
+    <div class="burger__inner">
+        <div class="burger__header">
+            <div class="logo">
+    <a href="index.html"><img src="./img/main-logo.svg" alt="Natural Hair Clinic"></a>
+</div>
+            <button class="burger__exit">
+                <img src="img/exit.svg" alt="Exit">
+            </button>
+        </div>
+        
+        <button class="burger__btn">
+            <img src="img/header-btn.svg">
+            <span>Заказать звонок</span>
+        </button>
+        <div class="burger__lang">
+            <button>
+                RU
+                <svg width="10" height="8" viewBox="0 0 10 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M6.29904 6.75C5.72169 7.75 4.27831 7.75 3.70096 6.75L1.10289 2.25C0.525536 1.25 1.24722 0 2.40192 0H7.59808C8.75278 0 9.47446 1.25 8.89711 2.25L6.29904 6.75Z"
+                        fill="#4BB4FF" />
+                </svg>
+    
+            </button>
+        </div>
+        <nav class="nav">
+    <a class="nav__link" href="./services.html">Услуги</a>
+    <a class="nav__link nav__anchor" href="index.html#gallery">Галерея</a>
+    <a class="nav__link" href="./license.html">Лицензия</a>
+    <a class="nav__link nav__anchor" href="index.html#contact">Контакты</a>
+    <a class="nav__link" href="./about.html">О клинике</a>
+</nav>
+    </div>
+</div>
+</header>
+
+    <!-- Main Page -->
+    <main>
+        <div class="call-modal" modalActive="false">
+    <div class="call-modal__close"></div>
+    <div class="call-modal__inner">
+        <h3 class="call-modal__title">Записаться на консультацию</h3>
+        <p class="call-modal__text">
+            Оставьте заявку и мы свяжемся с Вами для уточнения даты и времени.
+        </p>
+        <input class="call-modal__input" type="text" placeholder="Введите имя">
+        <input class="call-modal__input" type="text" placeholder="Номер телефона">
+        <button class="call-modal__btn">
+            <img src="img/header-btn.svg">
+            Заказать звонок
+        </button>
+        <p class="call-modal__primary">
+            Нажимая на кнопку <span>«Заказать звонок»</span>, Вы даёте согласие на обработку персональных данных
+        </p>
+    </div>
+</div>
+        
+        <div class="tabs_wrapper">
+    <ul class="tabs">
+        <li class="active" rel="tab1">Пересадка волос</li>
+        <li rel="tab2">Трихология</li>
+        <li rel="tab3">Дерматология</li>
+        <li rel="tab4">Дерматокосметология</li>
+        <li rel="tab5">Пересадка аутомеланоцитов</li>
+        <li rel="tab6">Лазерная эпиляция на аппарате Candella Gentle Max Pro</li>
+        <li rel="tab7">Лазерная терапия на аппарате Vbeam Perfecta</li>
+        <li rel="tab8">Лазерная терапия на аппарате Gentle Max Pro</li>
+    </ul>
+    <div class="tab_container">
+        <h3 class="d_active tab_drawer_heading" rel="tab1">Пересадка волос</h3>
+        <div id="tab1" class="tab_content">
+            <h2 class="tabs-title">Пересадка волос</h2>
+            <div class="accordion">
+                <div class="accordion-item">
+                    <button id="accordion-button-1" aria-expanded="false"><span class="accordion-title">Пересадка волос
+                            методом FUE</span><span class="icon" aria-hidden="true"></span></button>
+                    <div class="accordion-content">
+                        <ul>
+                            <li>
+                                До 300 единиц - 1.500.000 сум
+                            </li>
+                            <li>
+                                За 1 графт (до 2.000 графтов/от 2.000 графтов) - 5.000/3.000 сум
+                            </li>
+                            <li>
+                                Пакет “MINIMUM” (до 2.500 графтов) - 10.000.000 сум
+                            </li>
+                            <li>
+                                Пакет “MEDIUM” (до 3.000 графтов) - 12.000.000 сум
+                            </li>
+                            <li>
+                                Пакет “MAXIMUM” (от 3.100 до 6.000 графтов) - 14.000.000 сум
+                            </li>
+                        </ul>
+
+
+                        <p class="mt-20">
+                            <b>Пакеты по пересадке волос (Minimum, Medium, Maximum) включают в себя:</b>
+                        </p>
+
+                        <ul>
+                            <li>
+                                - операцию по пересадке
+                            </li>
+                            <li>
+                                - бесплатные консультации в течении одного года
+                            </li>
+                            <li>
+                                - перевязки (3-4 дня)
+                            </li>
+                            <li>
+                                - набор для послеоперационного ухода за волосами
+                            </li>
+                            <li>
+                                - PRP- терапия (1 процедура)
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button id="accordion-button-2" aria-expanded="false"><span class="accordion-title">Пересадка волос
+                            в область бороды методом FUE</span><span class="icon" aria-hidden="true"></span></button>
+                    <div class="accordion-content">
+                        <p>Стоимость: за 1 графт - 6.000 сум</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button id="accordion-button-3" aria-expanded="false"><span class="accordion-title">Пересадка
+                            бровей</span><span class="icon" aria-hidden="true"></span></button>
+                    <div class="accordion-content">
+                        <ul>
+                            <li>
+                                Пересадка бровей - 6.000.000 сум
+                            </li>
+                            <li>
+                                Пересадка бровей (коррекция) - 3.000.000 сум
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button id="accordion-button-4" aria-expanded="false"><span class="accordion-title">Анализы для
+                            пересадки волос</span><span class="icon" aria-hidden="true"></span></button>
+                    <div class="accordion-content">
+                        <p>
+                            Пациенты желающие провести процедуру по пересадке волос должны предъявить следующие анализы
+                            крови:
+                        </p>
+                        <ul>
+                            <li>
+                                1) ВИЧ- вирус иммунодефицита человека;
+                            </li>
+                            <li>
+                                2) Гепатиты- B, C;
+                            </li>
+                            <li>
+                                3) RW- Реакция Вассермана (Сифилис).
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- <div class="accordion-item">
+                    <button id="accordion-button-5" aria-expanded="false"><span class="accordion-title">How do airplanes
+                            stay up?</span><span class="icon" aria-hidden="true"></span></button>
+                    <div class="accordion-content">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut tortor pretium
+                            viverra suspendisse potenti.</p>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+        <!-- #tab1 -->
+
+        <h3 class="tab_drawer_heading" rel="tab2">Трихология</h3>
+        <div id="tab2" class="tab_content">
+            <h2 class="tabs-title">Трихология</h2>
+            <div class="accordion">
+                <div class="accordion-item">
+                    <button id="accordion-button-1" aria-expanded="false"><span
+                            class="accordion-title">Консультация</span><span class="icon"
+                            aria-hidden="true"></span></button>
+                    <div class="accordion-content">
+                        <ul>
+                            <li>
+                                Консультация врача трихолога (первичная) - 140.000 сум
+                            </li>
+                            <li>
+                                Консультация врача трихолога (повторная) - 100.000 сум
+                            </li>
+                            <li>
+                                Консультация с трихоскопией (первичная) - 200.000 сум
+                            </li>
+                            <li>
+                                Консультация с трихоскопией (повторная) - 120.000 сум
+                            </li>
+                            <li>
+                                Трихоскопия - 140.000 сум
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button id="accordion-button-2" aria-expanded="false"><span class="accordion-title">Инъекционные
+                            процедуры</span><span class="icon" aria-hidden="true"></span></button>
+                    <div class="accordion-content">
+                        <ul>
+                            <li>PRP - терапия - от 400.000 сум</li>
+                            <li>Мезотерапия - от 400.000 сум</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button id="accordion-button-3" aria-expanded="false"><span
+                            class="accordion-title">Трихопигментация</span><span class="icon"
+                            aria-hidden="true"></span></button>
+                    <div class="accordion-content">
+                        <ul>
+                            <li>
+                                <b>Трихопигментация</b>
+                            </li>
+                            <li>
+                                1 зона 3.000.000 сум
+                            </li>
+                            <li>
+                                2 зоны (по 2.750.000 зона) - 5.500.000 сум
+                            </li>
+                            <li>
+                                3 зоны (по 2.500.000 зона) - 7.500.000 сум
+                            </li>
+                            <li>
+                                4 зоны (по 2.250.000 зона) - 9.000.000 сум
+                            </li>
+                            <li>
+                                5 зон (по 2.000.000 зона) - 10.000.000 сум
+                            </li>
+                        </ul>
+                        <br>
+                        <ul>
+                            <li>
+                                <b>Трихопигментация (коррекция):</b>
+                            </li>
+                            <li>
+                                1 зона - 1.500.000 сум
+                            </li>
+                            <li>
+                                2 зоны - 2.750.000 сум
+                            </li>
+                            <li>
+                                3 зоны - 3.750.000 сум
+                            </li>
+                            <li>
+                                4 зоны - 4.500.000 сум
+                            </li>
+                            <li>
+                                5 зон - 5.000.000 сум
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- #tab2 -->
+
+        <h3 class="tab_drawer_heading" rel="tab3">Дерматология</h3>
+        <div id="tab3" class="tab_content">
+            <h2 class="tabs-title">Дерматология</h2>
+            <div class="accordion">
+                <div class="accordion-item">
+                    <button id="accordion-button-1" aria-expanded="false"><span
+                            class="accordion-title">Консультация</span><span class="icon"
+                            aria-hidden="true"></span></button>
+                    <div class="accordion-content">
+                        <ul>
+                            <li>
+                                <b>Консультация врача дерматовенеролога:</b>
+                            </li>
+                            <li>
+                                Первичная - 120.000 сум
+                            </li>
+                            <li>
+                                Повторная - 80.000 сум
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button id="accordion-button-2" aria-expanded="false"><span class="accordion-title">Инъекционные
+                            процедуры</span><span class="icon" aria-hidden="true"></span></button>
+                    <div class="accordion-content">
+                        <ul>
+                            <li>PRP - терапия - от 400.000 сум</li>
+                            <li>Мезотерапия - от 400.000 сум</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button id="accordion-button-3" aria-expanded="false"><span
+                            class="accordion-title">Физиотерапия</span><span class="icon"
+                            aria-hidden="true"></span></button>
+                    <div class="accordion-content">
+                        <ul>
+                            <li>
+                                ВЛОК терапия (внутривенное лазерное обучение крови) - 60.000 сум
+                            </li>
+                            <li>
+                                Озонотерапия - 60.000 сум
+                            </li>
+                            <li>
+                                Диодный лазер для волос - 60.000 сум
+                            </li>
+                            <li>
+                                Инфракрасный лазер СОГДИАНА - 30.000 сум
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- #tab3 -->
+
+        <h3 class="tab_drawer_heading" rel="tab4">Дерматокосметология</h3>
+        <div id="tab4" class="tab_content">
+            <h2 class="tabs-title">Дерматокосметология</h2>
+            <div class="accordion">
+                <div class="accordion-item">
+                    <button id="accordion-button-1" aria-expanded="false"><span
+                            class="accordion-title">Консультация</span><span class="icon"
+                            aria-hidden="true"></span></button>
+                    <div class="accordion-content">
+                        <ul>
+                            <li>
+                                <b>Консультация врача дерматокосметолога:</b>
+                            </li>
+                            <li>
+                                Первичная - 100.000 сум
+                            </li>
+                            <li>
+                                Повторная - 70.000 сум
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button id="accordion-button-2" aria-expanded="false"><span class="accordion-title">Удаление
+                            доброкачественных образований</span><span class="icon" aria-hidden="true"></span></button>
+                    <div class="accordion-content">
+                        <ul>
+                            <li>
+                                <b>Удаление доброкачественных образований кожи диатермокоагуляцией:</b>
+                            </li>
+                            <li>
+                                1 - 5 шт (за 1 шт) - 50.000 сум
+                            </li>
+                            <li>
+                                6 - 10 шт (за 1 шт) - 40.000 сум
+                            </li>
+                            <li>
+                                11 - 20 шт (за 1 шт) - 30.000 сум
+                            </li>
+                            <li>
+                                более 20 шт (за 1 шт) - 20.000 сум
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button id="accordion-button-3" aria-expanded="false"><span class="accordion-title">Уходовые
+                            процедуры</span><span class="icon" aria-hidden="true"></span></button>
+                    <div class="accordion-content">
+                        <ul>
+                            <li>
+                                Ультразвуковая чистка лица - от 200.000 сум
+                            </li>
+                            <li>
+                                Механическая чистка - от 250.000 сум
+                            </li>
+                            <li>
+                                Пилинг поверхностный - от 150.000 сум
+                            </li>
+                            <li>
+                                Срединный пилинг - от 450.000 сум
+                            </li>
+                            <li>
+                                Уходовая процедура (лицо, шея, декольте) - от 250.000 сум
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- #tab4 -->
+
+        <h3 class="tab_drawer_heading" rel="tab5">Пересадка аутомеланоцитов</h3>
+        <div id="tab5" class="tab_content">
+            <h2 class="tabs-title">Пересадка аутомеланоцитов</h2>
+            <h3 class="tabs-subtitle">Трансплантация аутомеланоцитов</h3>
+            <ul class="tabs-list">
+                <li>
+                    <b>Пересадка аутомеланоцитов в депигментированные участки кожи:</b>
+                </li>
+                <li>
+                    Диаметром от 1 до 10 см<sup>2</sup> - 3.500.000 сум
+                </li>
+                <li>
+                    Диаметром от 11 до 25 см<sup>2</sup> - 5.000.000 сум
+                </li>
+                <li>
+                    Диаметром от 11 до 25 см<sup>2</sup> - 7.000.000 сум
+                </li>
+            </ul>
+        </div>
+        <!-- #tab5 -->
+
+        <h3 class="tab_drawer_heading" rel="tab6">Лазерная эпиляция на аппарате Candella Gentle Max Pro</h3>
+        <div id="tab6" class="tab_content">
+            <h2 class="tabs-title">Лазерная эпиляция на аппарате Candella Gentle Max Pro</h2>
+            <div class="accordion">
+                <div class="accordion-item">
+                    <button id="accordion-button-1" aria-expanded="false"><span class="accordion-title">Эпиляция для
+                            ЖЕНЩИН</span><span class="icon" aria-hidden="true"></span></button>
+                    <div class="accordion-content">
+                        <ul>
+                            <li>
+                                <b>
+                                    Примечание – скидки для лазерной эпиляции
+                                    на аппарате Candela Gentle Maх Pro:
+                                </b>
+                            </li>
+                            <li>
+                                <b>3 зоны – 10%</b>
+                            </li>
+                            <li>
+                                <b>4 зоны – 15%</b>
+                            </li>
+                            <li>
+                                <b>5 и более зон – 20%</b>
+                            </li>
+                            <li>
+                                <b>При оплате заранее 6 процедур – 25%</b>
+                            </li>
+                            <li>
+                                Эпиляция – лицо полностью 550.000 сум
+                            </li>
+                            <li>
+                                Эпиляция – зона усиков 135.000 сум
+                            </li>
+                            <li>
+                                Эпиляция – межбровье 90.000 сум
+                            </li>
+                            <li>
+                                Эпиляция – коррекция роста бровей 150.000 сум
+                            </li>
+                            <li>
+                                Эпиляция – лоб 170.000 сум
+                            </li>
+                            <li>
+                                Эпиляция – нос 140.000 сум
+                            </li>
+                            <li>
+                                Эпиляция – бакенбарды 200.000 сум
+                            </li>
+                            <li>
+                                Эпиляция – подбородок 180.000 сум
+                            </li>
+                            <li>
+                                Эпиляция – щёки 180.000 сум
+                            </li>
+                            <li>
+                                Эпиляция – ушные раковины 160.000 сум
+                            </li>
+                            <li>
+                                Эпиляция – нижняя треть лица 350.000 сум
+                            </li>
+                            <li>
+                                Эпиляция – височная область 150.000 сум
+                            </li>
+                            <li>
+                                Эпиляция – передняя поверхность шеи 225.000 сум
+                            </li>
+                            <li>
+                                Эпиляция – задняя поверхность шеи, затылок 330.000 сум
+                            </li>
+                            <li>
+                                Эпиляция – вся шея 500.000 сум
+                            </li>
+                            <li>
+                                Эпиляция – женское декольте 350.000 сум
+                            </li>
+                            <li>
+                                Эпиляция – зона грудины 350.000 сум
+                            </li>
+                            <li>
+                                Эпиляция – воротниковая зона 350.000 сум
+                            </li>
+                            <li>
+                                Эпиляция – женская грудб 650.000 сум
+                            </li>
+                            <li>
+                                Эпиляция – ареолы молочных желез 200.000 сум
+                            </li>
+                            <li>
+                                Эпиляция – подмышечные впадины 350.000 сум
+                            </li>
+                            <li>
+                                Эпиляция – женская спина 900.000 сум
+                            </li>
+                            <li>
+                                Эпиляция – женский живот 500.000 сум
+                            </li>
+                            <li>
+                                Эпиляция – белая линия живота 200.000 сум
+                            </li>
+                            <li>
+                                Эпиляция – область бикини (глубокая) 500.000 сум
+                            </li>
+                            <li>
+                                Эпиляция – область бикини (поверхностная) 450.000 сум
+                            </li>
+                            <li>
+                                Эпиляция – ягодицы 750.000 сум
+                            </li>
+                            <li>
+                                Эпиляция – ноги 50% (от стопы до колена) 650.000 сум
+                            </li>
+                            <li>
+                                Эпиляция – ноги 75% (от стопы до середины бедра) 850.000 сум
+                            </li>
+                            <li>
+                                Эпиляция – ноги 100% (от стопы до ягодичной складки) 1.100.000 сум
+                            </li>
+                            <li>
+                                Эпиляция – тыл стопы и пальцы 250.000 сум
+                            </li>
+                            <li>
+                                Эпиляция – руки 50% (от запястья до локтей) 450.000 сум
+                            </li>
+                            <li>
+                                Эпиляция – руки 75% (от запястья до середины плеча) 650.000 сум
+                            </li>
+                            <li>
+                                Эпиляция – руки 100% (от запястья до плеч) 850.000 сум
+                            </li>
+                            <li>
+                                Эпиляция – кисти рук и пальцы 250.000 сум
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button id="accordion-button-2" aria-expanded="false"><span class="accordion-title">Эпиляция для
+                            МУЖЧИН</span><span class="icon" aria-hidden="true"></span></button>
+                    <div class="accordion-content">
+                        <ul>
+                            <li>
+                                <b>
+                                    Примечание – скидки для лазерной эпиляции
+                                    на аппарате Candela Gentle Maх Pro:
+                                </b>
+                            </li>
+                            <li>
+                                <b>3 зоны – 10%</b>
+                            </li>
+                            <li>
+                                <b>4 зоны – 15%</b>
+                            </li>
+                            <li>
+                                <b>5 и более зон – 20%</b>
+                            </li>
+                            <li>
+                                <b>При оплате заранее 6 процедур – 25%</b>
+                            </li>
+                            <li>
+                                Эпиляция – лицо полностью 650.000 сум
+                            </li>
+                            <li>
+                                Эпиляция – зона усиков 170.000 сум
+                            </li>
+                            <li>
+                                Эпиляция – ушные раковины 180.000 сум
+                            </li>
+                            <li>
+                                Эпиляция – подбородка 180.000 сум
+                            </li>
+                            <li>
+                                Эпиляция – бакенбарды 250.000 сум
+                            </li>
+                            <li>
+                                Эпиляция – нос 160.000 сум
+                            </li>
+                            <li>
+                                Эпиляция – щёки 350.000 сум
+                            </li>
+                            <li>
+                                Эпиляция – лоб 200.000 сум
+                            </li>
+                            <li>
+                                Эпиляция – межбровье 100.000 сум
+                            </li>
+                            <li>
+                                Эпиляция – кант бороды и щёк 400.000 сум
+                            </li>
+                            <li>
+                                Эпиляция – коррекция роста бровей 170.000 сум
+                            </li>
+                            <li>
+                                Эпиляция – передняя поверхность шеи 350.000 сум
+                            </li>
+                            <li>
+                                Эпиляция – задняя поверхность шеи 400.000 сум
+                            </li>
+                            <li>
+                                Эпиляция – вся шея 550.000 сум
+                            </li>
+                            <li>
+                                Эпиляция – воротниковая зона 440.000 сум
+                            </li>
+                            <li>
+                                Эпиляция – подмышечные впадины 380.000 сум
+                            </li>
+                            <li>
+                                Эпиляция – грудь 650.000 сум
+                            </li>
+                            <li>
+                                Эпиляция – живот 850.000 сум
+                            </li>
+                            <li>
+                                Эпиляция – спина 1.100.000 сум
+                            </li>
+                            <li>
+                                Эпиляция – бикини классическое 600.000 сум
+                            </li>
+                            <li>
+                                Эпиляция – бикини глубокое 650.000 сум
+                            </li>
+                            <li>
+                                Эпиляция – ягодицы 900.000 сум
+                            </li>
+                            <li>
+                                Эпиляция – кисти рук и пальцы 280.000 сум
+                            </li>
+                            <li>
+                                Эпиляция – руки 50% (от запястья до локтей) 550.000 сум
+                            </li>
+                            <li>
+                                Эпиляция – руки 75% (от запястья до середины плеча) 650.000 сум
+                            </li>
+                            <li>
+                                Эпиляция – руки полностью (от запястья до плеч) 980.000 сум
+                            </li>
+                            <li>
+                                Эпиляция – тыл стопы и пальцы 280.000 сум
+                            </li>
+                            <li>
+                                Эпиляция – ноги 50% (от стопы до колена) 850.000 сум
+                            </li>
+                            <li>
+                                Эпиляция – ноги 75% (от стопы до середины бедра) 1.000.000 сум
+                            </li>
+                            <li>
+                                Эпиляция – ноги 100% (от стопы до ягодичной складки) 1.200.000 сум
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- #tab6 -->
+
+        <h3 class="tab_drawer_heading" rel="tab7">Лазерная терапия на аппарате Vbeam Perfecta</h3>
+        <div id="tab7" class="tab_content">
+            <h2 class="tabs-title">Лазерная терапия на аппарате Vbeam Perfecta</h2>
+            <div class="accordion">
+                <div class="accordion-item">
+                    <button id="accordion-button-1" aria-expanded="false"><span class="accordion-title">Удаление сосудов
+                            и пятен</span><span class="icon" aria-hidden="true"></span></button>
+                    <div class="accordion-content">
+                        <ul>
+                            <li>
+                                - Аномалия развития (винные пятна, ТАЭ)
+                            </li>
+                            <li>
+                                - Удаление сосудистых элементов
+                            </li>
+                            <li>
+                                - Лечение акне (угревая болезнь) и розацеа
+                            </li>
+                            <li>
+                                - Гемангиома
+                            </li>
+                            <li>
+                                - Пойкилодермия (Сивата)
+                            </li>
+                            <li>
+                                - Спайдер - ангиома и другие патологии
+                            </li>
+                        </ul>
+
+                        <ul style="margin-top: 10px;">
+                            <li>
+                                От 1 до 20 импульсов = 50.000 сум (за один импульс)
+                            </li>
+                            <li>
+                                От 21 до 50 импульсов = 30.000 сум (за один импульс)
+                            </li>
+                            <li>
+                                Свыше 50 импульсов = 15.000 сум (за один импульс)
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button id="accordion-button-2" aria-expanded="false"><span class="accordion-title">Лазерное
+                            омоложение (vBeam)</span><span class="icon" aria-hidden="true"></span></button>
+                    <div class="accordion-content">
+                        <ul>
+                            <li>- Лицо</li>
+                            <li>- Шея</li>
+                            <li>- Декольте</li>
+                        </ul>
+
+                        <ul style="margin-top: 10px;">
+                            <li>
+                                От 1 до 20 импульсов = 50.000 сум (за один импульс)
+                            </li>
+                            <li>
+                                От 21 до 50 импульсов = 30.000 сум (за один импульс)
+                            </li>
+                            <li>
+                                Свыше 50 импульсов = 15.000 сум (за один импульс)
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button id="accordion-button-3" aria-expanded="false"><span class="accordion-title">Лечение различных патологий</span><span class="icon" aria-hidden="true"></span></button>
+                    <div class="accordion-content">
+                        <ul>
+                            <li>
+                                - Удаление новообразований (папиломы, бородавки)
+                            </li>
+                            <li>
+                                - Лечение стрий (рястяжки), келоидных рубцов
+                            </li>
+                            <li>
+                                - Удаление пигментных пятен
+                            </li>
+                            <li>
+                                - Лечение псориаза
+                            </li>
+                        </ul>
+                        
+                        <ul style="margin-top: 10px;">
+                            <li>
+                                От 1 до 20 импульсов = 50.000 сум (за один импульс)
+                            </li>
+                            <li>
+                                От 21 до 50 импульсов = 30.000 сум (за один импульс)
+                            </li>
+                            <li>
+                                Свыше 50 импульсов = 15.000 сум (за один импульс)
+                            </li>
+
+                        </ul>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- #tab7 -->
+        
+        <h3 class="tab_drawer_heading" rel="tab8">Лазерная терапия на аппарате Gentle Max Pro</h3>
+        <div id="tab8" class="tab_content">
+            <h2 class="tabs-title">Лазерная терапия на аппарате Gentle Max Pro</h2>
+            <div class="accordion">
+                <div class="accordion-item">
+                    <button id="accordion-button-1" aria-expanded="false"><span class="accordion-title">Пигментные пятна, сосуды и ногти</span><span class="icon" aria-hidden="true"></span></button>
+                    <div class="accordion-content">
+                        <ul>
+                            <li>
+                                Лазерная обработка единичного пигментного пятна (лентиго) 1 см<sup>2</sup>- 135.000 сум
+                            </li>
+                            <li>
+                                Лазеродеструкция пигментных пятен (лентиго) до 2 см<sup>2</sup> - 230.000 сум
+                            </li>
+                            <li>
+                                Лазеродеструкция пигментных пятен (лентиго) до 5 см<sup>2</sup> - 380.000 сум
+                            </li>
+                            <li>
+                                Лазеродеструкция сосудов тела до 1 см<sup>2</sup> - 180.000 сум
+                            </li>
+                            <li>
+                                Лазеродеструкция сосудов тела 1 - 2 см<sup>2</sup> -  330.000 сум
+                            </li>
+                            <li>
+                                Лазеродеструкция сосудов тела более 2 см<sup>2</sup> (за 1 см<sup>2</sup>)- 180.000 сум
+                            </li>
+                            <li>
+                                Лазеродеструкция сосудов тела 10x10 см<sup>2</sup> - 1.100.000 сум
+                            </li>
+                            <li>
+                                Онихомикоз (одна ногтевая пластина) - 200.000 сум
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button id="accordion-button-2" aria-expanded="false"><span class="accordion-title">Лазерное
+                            омоложение (vBeam)</span><span class="icon" aria-hidden="true"></span></button>
+                    <div class="accordion-content">
+                        <ul>
+                            <li>Лазерное омоложение кожи лица - 600.000 сум</li>
+                            <li>Лазерное омоложение кожи шеи - 350.000 сум</li>
+                            <li>Лазерное омоложение кожи рук - 550.000 сум</li>
+                            <li>Лазерное омоложение кожи декольте - 600.000 сум</li>
+                            <li>Лазерное омоложение кожи лица и шеи - 800.000 сум</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- #tab8 -->
+    </div>
+    <!-- .tab_container -->
+</div>;
+        
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+    <div class="footer__inner">
+        <div class="logo">
+    <a href="index.html"><img src="./img/logo-white.png" alt="Natural Hair Clinic"></a>
+</div>
+        <nav class="nav">
+    <a class="nav__link" href="./services.html">Услуги</a>
+    <a class="nav__link nav__anchor" href="index.html#gallery">Галерея</a>
+    <a class="nav__link" href="./license.html">Лицензия</a>
+    <a class="nav__link nav__anchor" href="index.html#contact">Контакты</a>
+    <a class="nav__link" href="./about.html">О клинике</a>
+</nav>
+
+        <p class="footer__copy">2022 &copy; Все права защищены</p>
+    </div>
+</footer>
+
+<script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+
+</body>
+
+
+<script src="./js/scripts.js"></script>
+</html>
